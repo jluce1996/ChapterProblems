@@ -30,8 +30,11 @@ namespace Problem_2_pg._195
                     Console.WriteLine("We deliver to you!");
                     break;
                 }
-                else
+                else if (i == ZipCodes.Length - 1)
+                {
                     Console.WriteLine("Sorry, we don't deliver to you");
+                   
+                }
             }
 
         }

@@ -15,20 +15,21 @@ namespace ChapterProblems
             if (input == "P")
             {
                 price += 100;
-                Console.Write(Convert.ToInt32(price));
+                
             }
             else if (input == "O")
             {
                 price += 225;
-                Console.Write(Convert.ToInt32(price));
+                
             }
             else if (input == "M")
             {
                 price += 310;
-                Console.Write(Convert.ToInt32(price));
+                
             }
             else
                 price += 0;
+            Console.Write(Convert.ToInt32(price));
         }
     } 
 }

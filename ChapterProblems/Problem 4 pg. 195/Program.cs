@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,7 +29,7 @@ namespace Problem_4_pg._195
                     Console.WriteLine("Your cost is" +     price.ToString("C"));
                     break;
                 }
-                else if (i == 5)
+                else if (i == areacode.Length - 1)
                 {
                     Console.WriteLine("Entered an invalid area code.");
                 }
